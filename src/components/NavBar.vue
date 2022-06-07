@@ -51,7 +51,7 @@ export default {
   height: 100px;
   display: inline-flex;
   width: 100vw;
-  padding-left: 0.75vw;
+  padding-left: 0.25vw;
   background-image: linear-gradient(-90deg, #d38312, #a83279);
   color: #fefae0;
 }
@@ -72,11 +72,11 @@ export default {
 
 .button {
   width: 5vw;
-  padding: 10px;
+  padding: 5px;
   color: black;
 }
 .nav-item {
-  padding: 10px;
+  padding: 5px;
   color: #fefae0;
   text-decoration: none;
   text-align: right;
