@@ -19,6 +19,22 @@
 
       <hr />
 
+      <div class="col">
+        <a href="#" class="facebook">
+          <i class="fa fa-facebook fa-fw"></i> Sign in with Facebook
+        </a>
+        <br>
+        <br>
+        <a href="#" class="google">
+          <i class="fa fa-google fa-fw"></i> Sign with Google+
+        </a>
+        <br>
+        <br>
+        <a href="#" class="github">
+          <i class="fa fa-github fa-fw"></i> Sign in with Github
+        </a>
+      </div>
+
       <h3>Haven't got an account? </h3>
       <div class="button">
         <h3 v-on:click="redirectToSignUp()">Sign up now</h3>
@@ -33,13 +49,15 @@
 }
 
 hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1,
 h3 {
   color: #fefae0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .button { /*sign up button */
@@ -66,17 +84,47 @@ h3 {
 
 .error {
   background-color: rgb(243, 90, 90);
-  margin: 30px;
+  margin: 20px;
   padding: 20px;
   border-radius: 10px;
 }
+
 .form-container {
   display: inline-block;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   background-color: #bc6c25;
   width: 25vw;
 }
+
+.facebook {
+  background-color: #3B5998;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.github {
+  background-color: #24292e;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.col {
+  float: center;
+  width: 20vw;
+  margin-left: 30px;
+  padding: 5px;
+}
+
 </style>
 
 <script>

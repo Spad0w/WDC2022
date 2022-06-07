@@ -41,20 +41,20 @@
 .form-container {
   display: inline-block;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   background-color: #bc6c25;
   width: 25vw;
 }
 
 hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .error {
   background-color: rgb(243, 90, 90);
-  margin: 30px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   border-radius: 10px;
 }
 

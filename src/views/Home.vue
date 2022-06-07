@@ -12,7 +12,7 @@
 
 <style scoped>
 .home {
-  height: 200vh;
+  height: 100vh;
 }
 
 .textbox{
@@ -34,6 +34,7 @@
   font-size: 17px;
   border: none;
 }
+
 </style>
 
 <script>

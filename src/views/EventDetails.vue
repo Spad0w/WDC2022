@@ -9,7 +9,7 @@
 
 <style scoped>
 .event-details {
-  height: 100vh;
+  height: 125vh;
 }
 
 h1,
